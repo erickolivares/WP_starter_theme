@@ -1,0 +1,36 @@
+a {
+	text-decoration:none;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+	font-weight:700;
+}
+
+.wrapper {
+	width:$break;
+	margin:0 auto;
+	position:relative;
+	@media screen and (max-width:$break) {
+		width: 100%;
+	}
+}
+
+header,
+footer,
+section{
+	clear: left;
+    width: 100%;
+}
+
+::-moz-selection {
+    color: #ffffff;
+    background: $primary-color;
+}
+::selection {
+    color: #ffffff;
+    background: $primary-color;
+}
